@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <link rel="stylesheet" type="text/css" href="css/main.css">
+  <script src="js/miniquery.js"></script>
   <script src="js/app.js"></script>
   <title>SPABadge</title>
 </head>
@@ -9,18 +10,26 @@
     <div class="logo">
       <h1> SPA Badge </h1>
     </div>
-    <h1> SF Teachers </h1>
-      <ul>
-        <li><a href="#">Anne</a></li>
-        <li><a href="#">Derek</a></li>
-        <li><a href="#">Hunter</li>
-        <li><a href="#">Jen</a></li>
-        <li><a href="#">Julian</a></li>
-        <li><a href="#">Sarah</a></li>
-        <li><a href="#">Shambhavi</a></li>
-        <li><a href="#">Walker</a></li>
-        <li><a href="sample-page.html">Sample Page</a></li>
-      </ul>
+    <div class="main-page">
+      <h1> Chorus Frogs 2016 </h1>
+        <ul id="student-list">
+        </ul>
+    </div>
+
+    <div class="badge-page">
+      <h1>Words To Be Remembered By</h1>
+      <div class="show-user">
+        <h2 class="student-header"></h2>
+        <div id="badge-list"></div>
+        <div class="add-badge"></div>
+      </div>
+
+      <div class="nav">
+        <span class="nav-link">
+          <a class="home-page-nav" href="#"> HOME </a>
+        </span>
+      </div>
+    </div>
   </div>
 </body>
 </html>
